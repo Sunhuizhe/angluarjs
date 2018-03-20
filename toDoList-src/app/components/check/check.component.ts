@@ -1,4 +1,5 @@
 import { Component, OnInit,Output ,EventEmitter} from '@angular/core';
+import { LocalService } from '../../services/local.service';
 
 @Component({
   selector: 'app-check',
@@ -9,7 +10,8 @@ export class CheckComponent implements OnInit {
 
   str = '';
   strarr = [];
-  constructor() { }
+  constructor(public local:LocalService) {
+   }
 
   ngOnInit() {
     this.output.emit(this.strarr);
@@ -19,7 +21,8 @@ export class CheckComponent implements OnInit {
 
   myKeyUp(e){
     if(e.keyCode == 13){
-      this.strarr.push(this.str);
+      this.local.todo.push(this.str);
+      this.local.set('todo',this.strarr);
       // console.log(this.strarr);
       this.output.emit(this.strarr);
       // console.log(this.str);
