@@ -1,0 +1,20 @@
+
+<!--头部-->
+<div class="navbar">
+  <div class="navin">
+    <div class="title">商品列表</div>
+    <span class="less-text">F A S H I O N A B L E</span>
+  </div>
+</div>
+<!--列表-->
+<ul id="goods-list">
+    <li *ngFor="let item of dataArr">
+      <a class="addevent" routerLinkActive="active" [routerLink]="['/good/',id]">
+        <img src={{item.goodsListImg}} alt="图片">
+        <span class = "pricediv">
+          <p class="nor-icon">￥</p><p class="price">{{item.price}}</p>
+        </span>
+        <span class="name">{{item.goodsName}}</span>
+      </a>
+    </li>			
+</ul>

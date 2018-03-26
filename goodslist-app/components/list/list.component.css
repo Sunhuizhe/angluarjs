@@ -1,0 +1,67 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+}
+/*顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部顶部*/
+.navbar{
+	height: 4.5em;
+	background: #f5deb3;
+}
+.navin{
+	height: 1em;
+	padding-top: 0.2em;
+}
+.title{
+	font-size: 2em;
+	color: #8B4513;
+}
+.less-text{
+	display: block;
+	font-size: 1em;
+	color: #CD853F;
+}
+/*列表*/
+#goods-list >li >a >img{
+	width: 10em;
+	height: 10em;
+	margin: 0.7em auto;
+	margin-bottom: 0.3em;
+}
+#goods-list >li{
+	text-align: center;
+	width:11.7em;
+	float: left;
+	border: 1px solid #CD853F;
+	margin: 0.3em;
+	/* padding: 0.7em; */
+}
+#goods-list >li >a >span{
+	display: block;
+	text-align: left;
+	padding: 0 0.7em;	
+}
+#goods-list >li >a >.name{
+	height: 3em;
+	color:#CD853F;
+	font-size: 0.5em;
+}
+.price{
+	display: inline;
+	color: #f00;
+	font-size: 1.3em;
+}
+.nor-icon{
+	padding-top: 0.15em;
+	padding-left: 0.15em;
+	color: #CD853F;
+	display: inline;
+	font-size: 0.9em;
+}
+#goods-list>li >a >.number{
+	/*float: left;*/
+	width: 2em;
+}
+ul,li{
+	list-style: none;
+}
