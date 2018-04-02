@@ -1,0 +1,49 @@
+page-login {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+.toolbar-background{
+    background: #87CEFA;
+}
+.toolbar-title-ios{
+    color: #fff;
+}
+.round-button{
+    width:250px;
+    height:30px;
+    background:#87CEFA;
+}
+.input{
+    color:#87CEFA;
+}
+.text-input-ios{
+    outline: none;
+    border-bottom:1px solid #87CEFA;
+}
+.list-ios .item-block .item-inner,
+.list-ios > .item-block:first-child,
+.list-ios > .item-block:last-child{
+    border:none;
+}
+.list-ios{
+    border: none;
+}
+p{
+    margin:0;
+    text-align: left;
+    padding-left: 16px;
+    color: #f00;
+}
+.label-ios{
+    margin: 0;
+}
+img{
+    border-radius:60px;
+}
+.images{
+    margin: 30px auto;    
+}
+.alert-ios .alert-sub-title{
+    color:#f00;
+}

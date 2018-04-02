@@ -1,0 +1,30 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Login
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+
+  <!-- logo -->
+  <ion-img class="images" width="120" height="120" src="../assets/imgs/logo.png"></ion-img>
+
+  <!-- 列表 -->
+  <ion-list>
+    <!-- 用户名 -->
+    <ion-item>
+      <ion-input [(ngModel)]="username" class="input" placeholder="用户名"></ion-input>
+    </ion-item>
+
+    <!-- 密码 -->
+    <ion-item>
+      <ion-input [(ngModel)]="pword" class="input" type="password" placeholder="密码"></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <!-- 登录按钮 -->
+  <button class="round-button" (click)="checkData()" ion-button round>登录</button>
+
+</ion-content>
