@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+page-registeagree {
+
+}
+// header
+.agree-header{
+    background:#fedb47;
+}
+.agree-icon{
+    float: left;
+    margin-left: 5px;
+    margin-top: 8px;
+}
+// content
+.agree-content{
+    width: 97%;
+    height: 100%;
+    margin:20px auto;
+}
+// text title
+.agree-title{
+    padding-left: 3px;
+    width: 150px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.indent-p{
+    text-align: left;
+    text-indent: 2em;
+    line-height: 2em;
+}
+.agree-button{
+    width:70%;
+    font-size: 16px;
+    margin: 10px 0;
+}

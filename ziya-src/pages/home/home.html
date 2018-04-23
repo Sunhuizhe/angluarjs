@@ -1,29 +1,32 @@
 <!-- 顶部 -->
-<ion-header>
-  <ion-navbar>
-    <img class="navimg" src="../../assets/imgs/ziya-logo.png"/>
+<ion-header><!-- background color can't change! -->
+  <ion-navbar id="ion-header">
+    <img class="navimg" src="assets/imgs/ziya-logo.png"/>
   </ion-navbar>
 </ion-header>
 
 <!-- 内容 -->
 <ion-content>
   <!-- 轮播 -->
-  <ion-slides  loop="true" pager="true" autoplay="3000">
-    <ion-slide>
-      <ion-img class="slideimages" src="../../assets/imgs/ziyaheader.png"></ion-img>
-    </ion-slide>
-    <ion-slide>
-      <ion-img class="slideimages" src="../../assets/imgs/ziyaheader.png"></ion-img>
-    </ion-slide>
-  </ion-slides>
+  <ion-slides loop="true" pager="true" autoplay="3000" class="slides">
+      <ion-slide>
+        <img src="assets/imgs/ziyaheader.png" alt="1">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/ziyaheader.png" alt="2">
+      </ion-slide>
+      <ion-slide>
+        <img src="assets/imgs/ziyaheader.png" alt="3">
+      </ion-slide>
+    </ion-slides>
 
   <!-- segment组件 -->
   <div>
     <ion-segment [(ngModel)]="find">
-        <ion-segment-button value="information">
+        <ion-segment-button style="font-size:14.9px;" class="ion-button" value="information">
           找信息
         </ion-segment-button>
-        <ion-segment-button value="service">
+        <ion-segment-button style="font-size:14.9px;" class="ion-button" value="service">
           找服务
         </ion-segment-button>
       </ion-segment>
@@ -32,42 +35,42 @@
       <ion-grid *ngSwitchCase="iconString" >
           <ion-row>
             <ion-col class="col">
-              <img class="rowimg" src="../../assets/imgs/icon-11.png">
+              <img class="rowimg" src="assets/imgs/icon-11.png">
               <p>资产包转让</p>
             </ion-col>
             <ion-col class="col">
-              <img class="rowimg" src="../../assets/imgs/icon-12.png">
+              <img class="rowimg" src="assets/imgs/icon-12.png">
               <p>债券转让</p>
             </ion-col>
             <ion-col class="col">
-              <img class="rowimg" src="../../assets/imgs/icon-13.png">
+              <img class="rowimg" src="assets/imgs/icon-13.png">
               <p>固产转让</p>
               </ion-col>
               <ion-col class="col">
-              <img class="rowimg" src="../../assets/imgs/icon-14.png">
+              <img class="rowimg" src="assets/imgs/icon-14.png">
               <p>商业保理</p> 
               </ion-col>
           </ion-row>
           <ion-row>
             <ion-col class="col">
-               <img class="rowimg" src="../../assets/imgs/icon-15.png">
+               <img class="rowimg" src="assets/imgs/icon-15.png">
                <p>典当担保</p>
             </ion-col>
             <ion-col class="col">
-              <img class="rowimg" src="../../assets/imgs/icon-16.png">
+              <img class="rowimg" src="assets/imgs/icon-16.png">
               <p>融资借贷</p> 
             </ion-col>
             <ion-col class="col">
-              <img class="rowimg" src="../../assets/imgs/icon-17.png">
+              <img class="rowimg" src="assets/imgs/icon-17.png">
               <p>悬赏信息</p>
             </ion-col>
             <ion-col class="col">
-              <img class="rowimg" src="../../assets/imgs/icon-18.png">
+              <img class="rowimg" src="assets/imgs/icon-18.png">
               <p>尽职调查</p> 
             </ion-col>
           </ion-row>
           <div class="iconsub">
-            <img src="../../assets/imgs/icon-info.png">
+            <img src="assets/imgs/icon-info.png">
             <span >优质信息</span>
           </div>
           <!-- 列表组件 -->
@@ -93,42 +96,42 @@
         <ion-grid *ngSwitchCase="'service'">
             <ion-row>
               <ion-col  class="col">
-                <img class="rowimg" src="../../assets/imgs/icon-21.png">
+                <img class="rowimg" src="assets/imgs/icon-21.png">
                 <p>资产包收购</p>
               </ion-col>
               <ion-col class="col">
-                <img class="rowimg" src="../../assets/imgs/icon-22.png">
+                <img class="rowimg" src="assets/imgs/icon-22.png">
                 <p>催机收购</p> 
               </ion-col>
               <ion-col class="col">
-                <img class="rowimg" src="../../assets/imgs/icon-23.png">
+                <img class="rowimg" src="assets/imgs/icon-23.png">
                 <p>律师事务所</p>   
               </ion-col>
               <ion-col class="col">
-                <img class="rowimg" src="../../assets/imgs/icon-24.png">
+                <img class="rowimg" src="assets/imgs/icon-24.png">
                 <p>保理公司</p>   
               </ion-col>
             </ion-row>
             <ion-row>
               <ion-col class="col">
-                <img class="rowimg" src="../../assets/imgs/icon-25.png">
+                <img class="rowimg" src="assets/imgs/icon-25.png">
                 <p>资金过桥</p> 
               </ion-col>
               <ion-col class="col">
-                <img class="rowimg" src="../../assets/imgs/icon-16.png">
+                <img class="rowimg" src="assets/imgs/icon-16.png">
                 <p>投资贷款</p> 
               </ion-col>
               <ion-col class="col">
-                <img class="rowimg" src="../../assets/imgs/icon-27.png">
+                <img class="rowimg" src="assets/imgs/icon-27.png">
                 <p>固产收购</p>  
               </ion-col>
               <ion-col class="col">
-                <img class="rowimg" src="../../assets/imgs/icon-18.png">
+                <img class="rowimg" src="assets/imgs/icon-18.png">
                 <p>尽职调查</p> 
               </ion-col>
             </ion-row>
             <div class="iconsub">
-                <img src="../../assets/imgs/icon-service.png">
+                <img src="assets/imgs/icon-service.png">
                 <span >精选服务</span>
             </div>
             <!-- 列表组件 -->
@@ -152,5 +155,9 @@
             </ion-item>
           </ion-grid>
   </div>
+
+  <!-- use camera --> 
+
+  <!-- <button ion-button (click)="takePhoto()">camera</button>  -->
 
 </ion-content>

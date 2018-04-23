@@ -1,12 +1,14 @@
 
 page-home {
-    
 }
 *{
     margin: 0;
     padding:0;
     text-align: center;
 }
+// #ion-header{
+//     background: #fedb47!important;
+// }
 .fixed-content,.scroll-content{
     margin-top: 40.84px!important;
 }
@@ -24,7 +26,14 @@ ion-img.img-loaded img{
 img{
     border-radius: 0!important;
 }
+.slides{
+    padding-top: 13px;
+}
 .navimg{
+    // width:100%;
+    // padding:0 130px;
+    // height:100%;
+    // background: #fedb47;
     margin: 0 auto;
     height: 34.22px;
 }
@@ -38,7 +47,7 @@ ion-segment{
     border-bottom: 2px solid #f1f1f1;
 }
 .segment-ios .segment-button{
-    color:#999999;
+    // color:#999999;
     font-size: 14.9px;
     width: 100%;
     height: 51.88px;
@@ -47,11 +56,14 @@ ion-segment{
 }
 .segment-ios .segment-button.segment-activated{
     background:none;
-    color:#999;
+    // color:#999;
     border-bottom: 4px solid #fedb47;
 }
 .grid{
     padding:6px 0;
+}
+.ion-button{
+    font-size:14.9px;
 }
 .col{
     padding: 0;
@@ -66,7 +78,7 @@ ion-segment{
 // 列表
 .iconsub{
     text-align: left;
-    font-size: 14.35px;
+    font-size: 21px;
     color:#666666;
     border-top: 11.04px solid #f9f9f9;
     height: 55.2px;
@@ -74,7 +86,7 @@ ion-segment{
     padding-left:11.04px;
 }
 .iconsub img{
-    width: 18.22px;
+    width: 23px;
 }
 .item-title{
     display: block;
@@ -82,7 +94,7 @@ ion-segment{
     font-size: 13.25px;
     border:1px solid #f0f0f0;
     width:100%;
-    padding: 3.86px 28.7px;
+    padding: 3.86px 28px;
     border-left:none;
     border-right:none;
 }
@@ -91,7 +103,8 @@ ion-segment{
 }
 .item-content{
     height: 71.76px;
-    text-align: left;    
+    text-align: left; 
+    color:#000;   
 }
 .item-content img{
     width: 47.47px;
@@ -101,7 +114,7 @@ ion-segment{
     padding: 0;
 }
 .item-content img{
-    margin-left:28.7px;
+    margin-left:28px;
     margin-top: 12.69px;
 }
 .item-ios.item-block .item-inner{
@@ -113,6 +126,19 @@ ion-segment{
     background-repeat: no-repeat;
     background-position: 95% 68%;
     margin-right:23.18px;
+}
+.span-01{
+    float: right;
+    position: relative;
+    right: 190px;
+}
+.span-02{
+    float: right;
+    position: relative;
+    right: 10px;
+}
+.span-02 span,.span-01 span{
+    // color: #666;
 }
 ion-img{
     width: 100%;

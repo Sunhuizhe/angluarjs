@@ -1,0 +1,34 @@
+*{
+    text-align: center;
+}
+page-releasetype {
+    
+}
+// header
+.release-header{
+    text-align: left;
+    background:#fedb47;
+    font-size: 18px;
+}
+.release-icon{
+    float: left;
+    padding-left:12px;
+}
+// content
+.releasr-content{
+   background: #eeeeee; 
+}
+.release-col{
+    background:#fff;
+    margin:0 10px;
+    height:85px;
+}
+.first-row{
+    margin:32px 10px 0 10px;
+}
+.release-row{
+    margin:20px 10px 0 10px;
+}
+.release-p{
+    margin-top:-15px;
+}

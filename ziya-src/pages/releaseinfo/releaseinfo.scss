@@ -1,0 +1,75 @@
+page-releaseinfo {
+
+}
+// header
+.releaseinfo-icon{
+    float: left;
+    margin:6px 5px;
+}
+// content
+.releaseinfo-content{
+    margin-top:15px;
+}
+// input
+.releaseinfo-label{
+    display: inline-block;
+    width:80px;
+    text-align: left;
+    color:#aaa;
+}
+.releaseinfo-input-icon{
+    float: right;
+    color:#aaa;
+    padding-top:2px;
+}
+.releaseinfo-input{
+    border:none;
+}
+// textarea
+.releaseinfo-p{
+    font-size: 16px;
+    color: #666;
+    text-align: left;
+    padding-left:15px;
+    margin-top:-5px;
+    margin-bottom:7px;
+}
+.releaseinfo-textarea{
+    width:100%;
+    height:130px;
+    text-align: left;
+    padding:0 12px;
+    border-color: #eee;
+}
+input::-webkit-input-placeholder,
+.releaseinfo-textarea::-webkit-input-placeholder{
+    color:#ddd;
+}
+.releaseinfo-textarea-list{
+    margin-top:-10px;
+}
+.releaseinfo-textarea-icon{
+    font-size: 26px;
+    color:#aaa;
+}
+// upload
+.releaseinfo-upload-input{
+    background:none;
+    border:none;
+    // float: right;
+    text-align: right;
+    width:240px;
+}
+.releaseinfo-upload-icon{
+    float: right;
+    padding-top:2px;
+    color:#ddd;
+}
+
+// button
+.releaseinfo-button{
+    width:96%;
+    font-size: 18px;
+    box-shadow: none;
+    height:45px;
+}
